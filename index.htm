@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/brain.js@2.0.0-beta.1/dist/brain-browser.min.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <style>
+        #color{
+            width: 200px;
+            height: 200px;
+            border: 5px solid black;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        #white{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="color">
+        <div id="white">White</div>
+        <div>Black</div>
+        <div id="guess">AI Guessed Color</div>
+    </div>
+
+    <button id="white-button">White</button>
+    <button id="black-button">Black</button>
+    <button id="print-button">Print</button>
+</body>
+</html>
